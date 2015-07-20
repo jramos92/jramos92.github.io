@@ -1,6 +1,6 @@
 ---
 title: MovingOn Courses
-subtitle: Pagina de academia
+subtitle: Website Academy
 layout: default
 modal-id: 1
 date: 2014-07-18
