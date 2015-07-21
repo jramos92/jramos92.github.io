@@ -1,0 +1,15 @@
+---
+title: MovingOn Courses
+subtitle: Website Academy
+layout: default
+modal-id: 1
+date: 2015-07-02
+img: dreams.png
+thumbnail: dreams-thumbnail.png
+alt: image-alt
+project-date: July 2015
+client: MovingON Courses
+category: Web Development
+description: Website Academy
+
+---
