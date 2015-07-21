@@ -3,11 +3,11 @@ title: MovingOn Courses
 subtitle: Website Academy
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2015-07-02
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: July 2015
 client: Start Bootstrap
 category: Web Development
 description: Website Academy
