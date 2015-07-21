@@ -14,12 +14,8 @@ color:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: 
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: 
+  - title: github
+    url: https://github.com/jramos92?tab=repositories
   - title: envelope-o
     url: mailto:ramos.marin92@gmail.com
   - title: linkedin
