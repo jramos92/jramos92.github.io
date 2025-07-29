@@ -498,6 +498,14 @@ section h3.section-subheading {
     background-color: #{{ site.color.primary }};
 }
 
+/* Ensure images fill and are centered within the circular frame */
+.timeline>li .timeline-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
     font-size: 10px;
