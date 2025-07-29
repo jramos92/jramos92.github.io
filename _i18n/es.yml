@@ -1,0 +1,44 @@
+nav:
+  services: "Servicios"
+  portfolio: "Portafolio"
+  about: "Sobre mí"
+  contact: "Contacto"
+header:
+  welcome: "Bienvenido a JR Consulting"
+  subtitle: "Soluciones Profesionales"
+  button: "Nuestros Servicios"
+about:
+  title: "Sobre mí"
+  subtitle: "Mi experiencia profesional."
+services:
+  title: "Servicios"
+  subtitle: "Soluciones de consultoría y desarrollo."
+  mobile:
+    title: "Aplicaciones Móviles"
+    text: "Desarrollo de apps para Android e iOS"
+  support:
+    title: "Soporte de Sistemas"
+    text: "Mantenimiento de equipos y redes"
+  web:
+    title: "Desarrollo Web"
+    text: "Sitios corporativos y aplicaciones a medida"
+  process:
+    title: "Automatización de Procesos"
+    text: "Programas a medida y optimización de flujos de trabajo"
+  sap:
+    title: "Consultoría SAP ABAP"
+    text: "Especialista en Netweaver ABAP/4 y soluciones MM VIM"
+portfolio:
+  title: "Portafolio"
+  subtitle: "Todo mi trabajo."
+contact:
+  title: "Contacto"
+  subtitle: "Póngase en contacto a través de mis redes:"
+  close: "Cerrar"
+  client: "Cliente:"
+  date: "Fecha:"
+  service: "Servicio:"
+posts:
+  title: "Publicaciones"
+  subscribe: "suscribirse"
+  via_rss: "vía RSS"

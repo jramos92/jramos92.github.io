@@ -26,4 +26,4 @@ markdown: kramdown
 permalink: pretty
 
 # The first language is the default language of your site
-language: ['en','es']
+languages: ['es','en']

@@ -19,16 +19,20 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Servicios</a>
+                        <a class="page-scroll" href="#services">{% t nav.services %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portafolio</a>
+                        <a class="page-scroll" href="#portfolio">{% t nav.portfolio %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Sobre mí</a>
+                        <a class="page-scroll" href="#about">{% t nav.about %}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contacto</a>
+                        <a class="page-scroll" href="#contact">{% t nav.contact %}</a>
+                    </li>
+                    <li>
+                        <a href="{{ '/es/' | prepend: site.baseurl }}">ES</a> |
+                        <a href="{{ '/en/' | prepend: site.baseurl }}">EN</a>
                     </li>
                 </ul>
             </div>
@@ -41,9 +45,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Bienvenido a JR Consulting</div>
-                <div class="intro-heading">Soluciones Profesionales</div>
-                <a href="#services" class="page-scroll btn btn-xl">Nuestros Servicios</a>
+                <div class="intro-lead-in">{% t header.welcome %}</div>
+                <div class="intro-heading">{% t header.subtitle %}</div>
+                <a href="#services" class="page-scroll btn btn-xl">{% t header.button %}</a>
             </div>
         </div>
     </header>
