@@ -25,5 +25,14 @@ social:
 markdown: kramdown
 permalink: pretty
 
-# The first language is the default language of your sitedfds
-languages: ['en','es']
+# Jekyll multiple languages plugin settings:
+languages: ["en", "es"]
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
+
+# Default language
+lang: en
