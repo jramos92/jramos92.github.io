@@ -78,6 +78,42 @@ section h2.section-heading {
 .timeline > li .timeline-image {
     border: 7px solid #42a5f5;
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.timeline > li .timeline-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+.timeline > li .timeline-panel {
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.timeline > li .timeline-panel:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.timeline > li .timeline-heading h4 {
+    font-family: 'Inter', sans-serif;
+    margin-top: 0;
+    color: #1a237e;
+}
+
+.timeline > li .timeline-heading h4.subheading {
+    font-weight: 600;
+    color: #42a5f5;
+}
+
+.timeline > li .timeline-body p {
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 .portfolio-item {
