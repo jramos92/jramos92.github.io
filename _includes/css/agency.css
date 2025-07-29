@@ -173,6 +173,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+    box-shadow: 0 2px 4px rgba(0,0,0,.3);
 }
 
 .navbar-default .navbar-brand {
@@ -266,7 +267,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg-code.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/header-bg-code.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
