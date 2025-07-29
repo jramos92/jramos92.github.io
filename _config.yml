@@ -25,5 +25,5 @@ social:
 markdown: kramdown
 permalink: pretty
 
-# The first language is the default language of your site
-languages: ['es','en']
+# The first language is the default language of your sitedfds
+languages: ['en','es']
