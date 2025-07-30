@@ -212,3 +212,42 @@ footer {
     font-weight: normal !important;
     line-height: 1 !important;
 }
+
+/* Language Switcher Styling */
+.navbar-nav .dropdown-menu {
+    background-color: rgba(26, 35, 126, 0.95);
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-top: 10px;
+}
+
+.navbar-nav .dropdown-menu li a {
+    color: white !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .dropdown-menu li a:hover {
+    background-color: rgba(66, 165, 245, 0.2) !important;
+    color: #42a5f5 !important;
+}
+
+.navbar-nav .dropdown-toggle {
+    color: white !important;
+}
+
+.navbar-nav .dropdown-toggle:hover {
+    color: #42a5f5 !important;
+}
+
+.navbar-nav .dropdown-toggle .fa-globe {
+    margin-right: 5px;
+}
+
+/* Smooth transition for language changes */
+body {
+    transition: opacity 0.3s ease;
+}
