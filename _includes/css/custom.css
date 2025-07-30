@@ -139,7 +139,55 @@ footer {
     background-color: #1a237e;
 }
 
-footer span.copyright {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
+/* Service icons styling */
+.service-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #1a237e 0%, #42a5f5 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px;
+    box-shadow: 0 8px 20px rgba(26, 35, 126, 0.3);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 50%);
+    border-radius: 50%;
+}
+
+.service-icon:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(26, 35, 126, 0.4);
+}
+
+.service-icon i {
+    font-size: 40px;
+    color: white;
+    z-index: 1;
+}
+
+.service-item {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+.service-item:hover .service-icon {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(26, 35, 126, 0.4);
 }
